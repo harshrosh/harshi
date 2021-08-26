@@ -1,0 +1,21 @@
+#include<stdio.h>
+main()
+{
+    printf("Pick an food item : \n1. Pizza,Rs 239\n2. Burger,Rs 129\n3. Pasta,Rs 179\n4 French fries,Rs 99\n5. Sandwich,Rs 149");
+    int x=3;
+    switch (x)
+    {
+        case 1:printf("you picked Pizza,Rs 239");
+        break;
+        case 2:printf("you picked Burger,Rs 129");
+        break;
+        case 3:printf("you picked Pasta,Rs 179");
+        break;
+        case 4:printf("you picked French fries,Rs 99");
+        break;
+        case 5:printf("you picked Sandwich,Rs 149");
+        break;
+        default: printf("choice other than 1,2,3,4 and 5");
+    }
+    return 0;
+}
